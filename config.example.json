@@ -1,0 +1,33 @@
+// Rename this file to "config.json" and remove all the comments.
+{
+  // No spaces allowed in server names; otherwise can be anything
+  "some-server": {
+    "host": "localhost",
+    // Port is optional; defaults to 25565
+    "port": "25565"
+    // The chat name your bot will have on the server, includes rank prefixes
+    "nick": "~MyCoolBot",
+    // The bot's masters' chat names (including rank prefixes) on the server
+    "masters": [
+      "~SomeDude52"
+    ],
+    // Chat names (including rank prefixes) of the users the bot hates
+    "scum": [
+      "EvilPirate_HatesYa67"
+    ],
+    "styles": {
+      // The type of chat system in use on the server.
+      // Options are currently "vanilla" and "colon". You can also put a
+      // RegExp here (remember to escape backslashes). The first capturing
+      // group will be the username/nick (including rank prefixes), and the
+      // second will be the message.
+      "chat": "colon",
+      // The type of whisper (/tell) system in use on the server.
+      // Options are currently "vanilla" and "essentials". You can also put a
+      // RegExp here (remember to escape backslashes). The first capturing
+      // group will be the username/nick (including rank prefixes), and the
+      // second will be the message.
+      "tell": "essentials"
+    }
+  }
+}

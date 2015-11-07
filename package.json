@@ -1,0 +1,23 @@
+{
+  "name": "gerald",
+  "version": "0.0.0",
+  "description": "IT'S ALIVE! MUAHAHAH!",
+  "main": "gerald.js",
+  "keywords": [
+    "minecraft",
+    "minion",
+    "mineflayer",
+    "bot"
+  ],
+  "bugs": "https://github.com/1b8/gerald/issues",
+  "license": "MIT",
+  "author": {
+    "name": "1b8"
+  },
+  "repository": "1b8/gerald",
+  "dependencies": {
+    "mineflayer": "^1.4.0",
+    "mineflayer-navigate": "0.0.9",
+    "requireindex": "^1.1.0"
+  }
+}
