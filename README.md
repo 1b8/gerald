@@ -33,5 +33,4 @@ Once it's finished downloading files, to use it, perform this command
 node gerald.js [host:port] [username|email] [password]
 ```
 
-Usage documentation can be found... nowhere! Yet!
-Say "Bot, show help" in-game to show the help menu...
+Usage documentation can be found [here](https://github.com/1b8/gerald/wiki).
