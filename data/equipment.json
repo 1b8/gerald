@@ -1,0 +1,110 @@
+{
+  "golden_sword": {
+    "slot": "hand",
+    "power": 1
+  },
+  "wooden_sword": {
+    "slot": "hand",
+    "power": 2
+  },
+  "stone_sword": {
+    "slot": "hand",
+    "power": 3
+  },
+  "iron_sword": {
+    "slot": "hand",
+    "power": 4
+  },
+  "diamond_sword": {
+    "slot": "hand",
+    "power": 5
+  },
+
+
+  "TODO": "Add non-sword hand weapons!",
+
+
+  "leather_helmet": {
+    "slot": "head",
+    "power": 1
+  },
+  "golden_helmet": {
+    "slot": "head",
+    "power": 2
+  },
+  "chainmail_helmet": {
+    "slot": "head",
+    "power": 3
+  },
+  "iron_helmet": {
+    "slot": "head",
+    "power": 4
+  },
+  "diamond_helmet": {
+    "slot": "head",
+    "power": 5
+  },
+
+  "leather_chestplate": {
+    "slot": "torso",
+    "power": 1
+  },
+  "golden_chestplate": {
+    "slot": "torso",
+    "power": 2
+  },
+  "chainmail_chestplate": {
+    "slot": "torso",
+    "power": 3
+  },
+  "iron_chestplate": {
+    "slot": "torso",
+    "power": 4
+  },
+  "diamond_chestplate": {
+    "slot": "torso",
+    "power": 5
+  },
+
+  "leather_leggings": {
+    "slot": "legs",
+    "power": 1
+  },
+  "golden_leggings": {
+    "slot": "legs",
+    "power": 2
+  },
+  "chainmail_leggings": {
+    "slot": "legs",
+    "power": 3
+  },
+  "iron_leggings": {
+    "slot": "legs",
+    "power": 4
+  },
+  "diamond_leggings": {
+    "slot": "legs",
+    "power": 5
+  },
+
+  "golden_boots": {
+    "slot": "feet",
+    "power": 1
+  },
+  "leather_boots": {
+    "slot": "feet",
+    "power": 2
+  },
+  "chainmail_boots": {
+    "slot": "feet",
+    "power": 3
+  },
+  "iron_boots": {
+    "slot": "feet",
+    "power": 4
+  },
+  "diamond_boots": {
+    "slot": "feet",
+    "power": 5
+  }
+}

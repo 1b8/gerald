@@ -34,3 +34,8 @@ node gerald.js [host:port] [username|email] [password]
 ```
 
 Usage documentation can be found [here](https://github.com/1b8/gerald/wiki).
+
+### Updating
+```
+git pull
+```

@@ -19,11 +19,7 @@ var mineflayer = require('mineflayer'),
 
 .once('spawn', function () {
   console.log('Connected! Press CTRL-C to disconnect.');
-  bot.chat('Hello, I am a robot!');
-})
-
-.on('death', function () {
-  bot.chat('/back');
+  if (config.chat) bot.chat('Hello, I am a robot!');
 })
 
 .on('end', function () {
@@ -42,5 +38,7 @@ require('./lib/util/is').setUp(config);
 require('./lib/run-command')(bot, config);
 
 // Set up mineflayer-navigate
-
 require('mineflayer-navigate')(mineflayer)(bot);
+
+// mineflayer-scaffold
+require('mineflayer-scaffold')(mineflayer)(bot);
