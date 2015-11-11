@@ -1,11 +1,9 @@
-## Documentation coming soon...
-
 # Gerald
 
 Hello! This is a Minecraft bot created with
 [Mineflayer](https://github.com/andrewrk/mineflayer). It's similar to
 [Helperbot](https://github.com/Darthfett/helperbot) and
-[rbot](https://github.com/rom1504/rbot). It is **NOT** intended for
+[rbot](https://github.com/rom1504/rbot), and is **NOT** intended for
 cheating! Only use it on servers where you have permission to...
 
 ### Installation
@@ -15,20 +13,16 @@ These can be the credentials of any Minecraft account, but cannot be yours, as
 you will need to be online to issue the bot commands. This may be changed in
 future.
 
-To use, you must first install (if you don't already have)
-[Node.js](https://nodejs.org/en/download/) and [Git](http://git-scm.com/).
-Click those links, install them, then come back to this page.
+To use, you must have [Node.js](https://nodejs.org/en/download/) and
+[Git](http://git-scm.com/). Well, you don't need Git; you can just click the
+"Download as ZIP" button somewhere to the right of this text, and extract it.
 
-Once you've done that, run the following commands in the directory you want to
-install Gerald:
+Run this command in the `gerald` directory to install Gerald's dependencies:
 ```
-git clone https://github.com/1b8/gerald.git
-cd gerald
 npm install
 ```
 
-Once it's finished downloading files, to use it, perform this command
-(in the gerald directory):
+To start the bot:
 ```
 node gerald.js [host:port] [username|email] [password]
 ```

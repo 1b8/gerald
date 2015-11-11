@@ -1,27 +1,84 @@
 {
-  "golden_sword": {
+  "golden_shovel": {
     "slot": "hand",
     "power": 1
   },
-  "wooden_sword": {
+  "wooden_shovel": {
     "slot": "hand",
     "power": 2
   },
-  "stone_sword": {
+  "golden_pickaxe": {
     "slot": "hand",
     "power": 3
   },
-  "iron_sword": {
+  "wooden_pickaxe": {
     "slot": "hand",
     "power": 4
   },
-  "diamond_sword": {
+  "stone_shovel": {
     "slot": "hand",
     "power": 5
   },
-
-
-  "TODO": "Add non-sword hand weapons!",
+  "golden_axe": {
+    "slot": "hand",
+    "power": 6
+  },
+  "wooden_axe": {
+    "slot": "hand",
+    "power": 7
+  },
+  "stone_pickaxe": {
+    "slot": "hand",
+    "power": 8
+  },
+  "iron_shovel": {
+    "slot": "hand",
+    "power": 9
+  },
+  "golden_sword": {
+    "slot": "hand",
+    "power": 10
+  },
+  "wooden_sword": {
+    "slot": "hand",
+    "power": 11
+  },
+  "stone_axe": {
+    "slot": "hand",
+    "power": 12
+  },
+  "iron_pickaxe": {
+    "slot": "hand",
+    "power": 13
+  },
+  "diamond_shovel": {
+    "slot": "hand",
+    "power": 14
+  },
+  "stone_sword": {
+    "slot": "hand",
+    "power": 15
+  },
+  "iron_axe": {
+    "slot": "hand",
+    "power": 16
+  },
+  "diamond_pickaxe": {
+    "slot": "hand",
+    "power": 17
+  },
+  "iron_sword": {
+    "slot": "hand",
+    "power": 18
+  },
+  "diamond_axe": {
+    "slot": "hand",
+    "power": 19
+  },
+  "diamond_sword": {
+    "slot": "hand",
+    "power": 20
+  },
 
 
   "leather_helmet": {
