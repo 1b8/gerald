@@ -39,6 +39,3 @@ require('./lib/run-command')(bot, config);
 
 // Set up mineflayer-navigate
 require('mineflayer-navigate')(mineflayer)(bot);
-
-// mineflayer-scaffold
-require('mineflayer-scaffold')(mineflayer)(bot);
