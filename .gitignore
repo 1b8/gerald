@@ -29,3 +29,4 @@ node_modules
 # My stuff
 config.json
 lib/words
+test.js
