@@ -22,9 +22,12 @@ Run this command in the `gerald` directory to install Gerald's dependencies:
 npm install
 ```
 
+You'll need to set your configuration settings. Rename `config.example.json` to
+`config.json`, and remove all the comments.
+
 To start the bot:
 ```
-node gerald.js [host:port] [username|email] [password]
+node gerald.js [server (in config.json)] [username|email] [password]
 ```
 
 NOTE: To use the <https://cleverbot.io/> `chat` API, you must create a `keys.json` file in this directory, with these contents:
