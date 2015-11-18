@@ -30,3 +30,4 @@ node_modules
 config.json
 lib/words
 test.js
+keys.json

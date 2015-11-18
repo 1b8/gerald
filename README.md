@@ -27,6 +27,17 @@ To start the bot:
 node gerald.js [host:port] [username|email] [password]
 ```
 
+NOTE: To use the <https://cleverbot.io/> `chat` API, you must create a `keys.json` file in this directory, with these contents:
+```json
+{
+  "chat": {
+    "user": "<USER>",
+    "key": "<KEY>"
+  }
+}
+```
+where `<USER>` and `<KEY>` are your API user and key from <https://cleverbot.io/keys>.
+
 Usage documentation can be found [here](https://github.com/1b8/gerald/wiki).
 
 ### Updating

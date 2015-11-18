@@ -7,7 +7,7 @@ if (args.length < 1) {
 }
 
 var mineflayer = require('mineflayer'),
-    config = require('./config.json')[args[0]],
+    config = require('./config')[args[0]],
 
     bot = mineflayer.createBot({
   // node-minecraft-protocol sets defaults
